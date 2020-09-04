@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Study Bouncing Ball</title>
+</head>
+<body onkeydown="keydownHandler(event)">
+<h3 style="text-align: center" id="score">Score : 0</h3>
+<div style="text-align: center" id="container">
+    <canvas id="boardCanvas" width="500px" height="500px" style="border: 1px solid black">
+    </canvas>
+</div>
+<div style="text-align: center"><button id="startgame" onclick="startGame()" type="button" style="text-align: center; padding: 15px; margin-top: 10px">Start game.</button></div>
+<img alt="Ball" id="ballImage" src="Ball-PNG-Free-Download.png" hidden>
+<script src="script.js"></script>
+</body>
+</html>
